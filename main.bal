@@ -1,6 +1,4 @@
 import ballerina/http;
-import ballerina/os;
-import ballerina/io;
 
 listener http:Listener httpListener = new (9090);
 

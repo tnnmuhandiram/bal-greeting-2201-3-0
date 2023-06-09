@@ -4,7 +4,7 @@ listener http:Listener httpListener = new (9090);
 
 service / on httpListener {
     resource function get greeting/[string name]() returns string {
-        return "Hello world 2" + name;
+        return "Hello world 3" + name;
     }
 
 }
